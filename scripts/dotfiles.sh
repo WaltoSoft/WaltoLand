@@ -3,7 +3,7 @@ executeScript() {
   echoText "Copying Hyperland Dot files"
 
   doit() {
-    sudo rsync -avhp -I $REPO_DIR/dotfiles/ /home/billy
+    sudo rsync -avhp -I $REPO_DIR/dotfiles/ $HOME_DIR
   }
 
   if ! doit ; then
