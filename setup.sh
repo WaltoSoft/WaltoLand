@@ -77,4 +77,4 @@ startInstallation() {
   cd "${REPO_DIR}/scripts"
   ./install.sh $GIT_DIR
 }
-
+executeScript
