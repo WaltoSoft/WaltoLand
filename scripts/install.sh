@@ -8,7 +8,7 @@ executeScript() {
   source $SCRIPT_DIR/start.sh
   source $SCRIPT_DIR/packageInstall.sh
   source $SCRIPT_DIR/dotfiles.sh
-#  source $SCRIPT_DIR/bashrc.sh
+  source $SCRIPT_DIR/bashrc.sh
 #  source $SCRIPT_DIR/services.sh
 #  source $SCRIPT_DIR/grub.sh
 #  source $SCRIPT_DIR/gnome.sh
@@ -17,5 +17,5 @@ executeScript() {
   echoText -c $COLOR_SUCCESS "Installation complete!"
 }
 
-GIT_DIR=$1
+HOME_DIR=$1
 executeScript
