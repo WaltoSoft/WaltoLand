@@ -77,7 +77,7 @@ installPackages() {
 startInstallation() {
   cd "${REPO_DIR}/scripts"
   chmod +x install.sh
-  ./install.sh ${GIT_DIR}
+  ./install.sh ${HOME_DIR}
 }
 
 set -e
