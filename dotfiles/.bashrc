@@ -13,4 +13,4 @@ PS1='[\u@\h \W]\$ '
 # Everything above this line is the default .bashrc installed by archinstall
 # Add customizations to the .bashrc_waltoland file.
 #-------------------------------------------------------------------------------
-source $HOME/.bashrc_waltonland
+source $HOME/.bashrc_waltoland
