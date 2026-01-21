@@ -80,11 +80,6 @@ startInstallation() {
 
 set -e
 
-if [ "$EUID" -ne 0 ]; then
-  echo "Please use sudo when running this script"
-  exit 1
-fi
-
 while getopts ":b:" option; do
   case $option in
     b)  executeScript "${OPTARG}"
