@@ -15,7 +15,7 @@ PACKAGE_LIST=(
   "kitty"                        #kitty terminal window
   "microsoft-edge-stable-bin"    #Microsoft Edge
   "networkmanager"               #Network Manager
-  "network-manager-applet        #Applet for Network Manager
+  "network-manager-applet"       #Applet for Network Manager
   "pipewire"                     #For screensharing
   "xdg-desktop-portal-hyprland"  #Handles a lot of stuff for desktop like file pickers, screensharing, etc.
   "nautilus"                     #Nautilus File Manager
