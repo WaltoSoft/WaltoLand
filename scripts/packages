@@ -1,0 +1,15 @@
+
+
+
+PACKAGE_LIST=(
+  "dunst"                        #Notification Daemon
+  "git"                          #git source control
+  "kitty"                        #kitty terminal window
+  "pipewire"                     #For screensharing
+  "xdg-desktop-portal-hyprland"  #Handles a lot of stuff for desktop like file pickers, screensharing, etc.
+  "noto-fonts"                   #Fonts
+  "polkit-gnome"                 #Authentication agent
+  "ttf-nerd-fonts-symbols"       #Icons and Symbols
+  
+)
+
