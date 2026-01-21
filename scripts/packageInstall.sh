@@ -63,7 +63,7 @@ installYay() {
 
     installIt() {
       echoText "Installing '${yayPackage}'"
-      sudo pacman $installFile --noconfirm
+      sudo pacman -U $installFile --noconfirm
     }
 
     if buildIt && installIt ; then
