@@ -1,8 +1,7 @@
 executeScript() {
   set -e
 
-  SCRIPT_DIR=$(dirname "$(realpath "$0")")
-  GIT_DIR=$1
+  SCRIPT_DIR=$(dirname "$(realpath "$0")"
   source ./library.sh
 
 #  source $SCRIPT_DIR/validateSudoUser.sh
@@ -17,4 +16,6 @@ executeScript() {
 
   echoText -c $COLOR_SUCCESS "Installation complete!"
 }
+
+GIT_DIR=$1
 executeScript
