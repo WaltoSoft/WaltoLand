@@ -1,5 +1,4 @@
 REPO_NAME=WaltoLand
-GIT_DIR=$1
 REPO_DIR=$GIT_DIR/$REPO_NAME
 echo ${GIT_DIR}
 BOLD="\033[1m"
