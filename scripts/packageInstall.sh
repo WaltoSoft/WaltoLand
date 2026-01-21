@@ -4,12 +4,18 @@ CORE_PACKAGE_LIST=(
 
 PACKAGE_LIST=(
   "base-devel"                   #Tools for development
+  "blueman"                      #GUI for bluetooth
+  "bluez"                        #Provides bluetooth protocol stack
+  "bluez-utils"                   #Provides the bluetooth utility"
   "dunst"                        #Notification Daemon
   "fastfetch"                    #Pretty display in terminal window
+  "gdm"                          #Dispaly manager, provides login screen
   "git"                          #git source control
   "gnome-text-editor"            #Gnome Text Editor
   "kitty"                        #kitty terminal window
-  "microsoft-edge-stable-bin"	 #Microsoft Edge
+  "microsoft-edge-stable-bin"    #Microsoft Edge
+  "networkmanager"               #Network Manager
+  "network-manager-applet        #Applet for Network Manager
   "pipewire"                     #For screensharing
   "xdg-desktop-portal-hyprland"  #Handles a lot of stuff for desktop like file pickers, screensharing, etc.
   "nautilus"                     #Nautilus File Manager
