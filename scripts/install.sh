@@ -2,9 +2,7 @@ executeScript() {
   set -e
 
   SCRIPT_DIR=$(dirname "$(realpath "$0")")
-  source ./library.sh
-
-  source $SCRIPT_DIR/validateSudoUser.sh
+  source $SCRIPT_DIR/library.sh
   source $SCRIPT_DIR/start.sh
   source $SCRIPT_DIR/packageInstall.sh
   source $SCRIPT_DIR/dotfiles.sh
