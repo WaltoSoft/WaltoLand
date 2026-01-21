@@ -5,6 +5,7 @@ CORE_PACKAGE_LIST=(
 PACKAGE_LIST=(
   "base-devel"                   #Tools for development
   "dunst"                        #Notification Daemon
+  "fastfetch"                    #Pretty display in terminal window
   "git"                          #git source control
   "gnome-text-editor"            #Gnome Text Editor
   "kitty"                        #kitty terminal window
