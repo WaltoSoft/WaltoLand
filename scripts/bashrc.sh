@@ -3,12 +3,12 @@ executeScript() {
 
   doit() {
     echoText "Backing up existing .bashrc scripts"
-    cp $HOME_DIR/.bashrc $HOME_DIR/.bashrc.waltoland.bkp
-    cp $HOME_DIR/.bashrc_custom $HOME_DIR/.bashrc_custom.waltoland.bkp
+    cp $HOME_DIR/.bashrc $HOME_DIR/.bashrc.bkp
+    cp $HOME_DIR/.bashrc_waltoland $HOME_DIR/.bashrc_waltoland.bkp
 
     echoText "Copying new bashrc configuration scripts"
     cp $REPO_DIR/dotfiles/.bashrc $HOME_DIR/.bashrc
-    cp $REPO_DIR/dotfiles/.bashrc_custom $HOME_DIR/.bashrc_custom
+    cp $REPO_DIR/dotfiles/.bashrc_waltoland $HOME_DIR/.bashrc_waltoland
   }
 
   if ! doit ; then
