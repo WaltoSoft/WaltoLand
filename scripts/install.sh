@@ -2,7 +2,7 @@ executeScript() {
   set -e
 
   SCRIPT_DIR=$(dirname "$(realpath "$0")")
-
+  GIT_DIR=$1
   source ./library.sh
 
 #  source $SCRIPT_DIR/validateSudoUser.sh
