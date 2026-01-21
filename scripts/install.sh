@@ -8,9 +8,9 @@ executeScript() {
   source $SCRIPT_DIR/dotfiles.sh
   source $SCRIPT_DIR/bashrc.sh
   source $SCRIPT_DIR/services.sh
-#  source $SCRIPT_DIR/grub.sh
+  source $SCRIPT_DIR/grub.sh
 #  source $SCRIPT_DIR/gnome.sh
-#  source $SCRIPT_DIR/reboot.sh
+  source $SCRIPT_DIR/reboot.sh
 
   echoText -c $COLOR_SUCCESS "Installation complete!"
 }
