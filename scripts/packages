@@ -2,11 +2,15 @@
 
 
 PACKAGE_LIST=(
+  "base-devel"                   #Tools for development
   "dunst"                        #Notification Daemon
   "git"                          #git source control
+  "gnome-text-editor"            #Gnome Text Editor
   "kitty"                        #kitty terminal window
+  "microsoft-edge-stable-bin"	 #Microsoft Edge
   "pipewire"                     #For screensharing
   "xdg-desktop-portal-hyprland"  #Handles a lot of stuff for desktop like file pickers, screensharing, etc.
+  "nautilus"                     #Nautilus File Manager
   "noto-fonts"                   #Fonts
   "polkit-gnome"                 #Authentication agent
   "ttf-nerd-fonts-symbols"       #Icons and Symbols
