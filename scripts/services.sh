@@ -23,7 +23,7 @@ executeScript() {
 enableService() {
   existsOrExit $1, "enableService was called with no service name"
   local service=$1
-  systemctl enable "${service}.service"
+  sudo systemctl enable "${service}.service"
 }
 
 executeScript
