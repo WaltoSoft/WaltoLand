@@ -77,4 +77,25 @@ startInstallation() {
   cd "${REPO_DIR}/scripts"
   ./install.sh $GIT_DIR
 }
+
+set -e
+
+if [ "$EUID" -ne 0 ]; then
+  echo "Please use sudo when running this script"
+  exit 1
+fi
+
+while getopts ":b:" option; do
+  case $option in
+    b)  executeScript "${OPTARG}"
+        exit 0
+        ;;
+    :)  echo "Option -${OPTARG} requires an argument."
+        exit 1;;
+    ?)  echo "Invalid option: -${OPTARG}." 
+        exit 1
+        ;;
+  esac
+done
+
 executeScript
