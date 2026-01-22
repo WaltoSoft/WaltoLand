@@ -11,7 +11,7 @@ executeScript() {
       sudo cp $grubConfigFile "${grubConfigFile}.waltoland.bkp"
       sudo cp $grubScriptFile "${grubScriptFile}.waltoland.bkp"
 
-      sudo ensureFolder $grubThemesFolder/arch-linux
+      ensureFolder $grubThemesFolder/arch-linux
 
       echoText "Setting grub theme to arch-linux"
       sudo tar -C $grubThemesFolder/arch-linux -xf $REPO_DIR/archives/grub/arch-linux.tar
