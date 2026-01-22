@@ -168,7 +168,11 @@ isUserFolder() {
   existsOrExit "$1" "No folder path provided to isUserFolder"
   local folderPath=$1
 
-  if [[ $folderPath == "${HOME_DIR}/"*]]; then
+  # Normalize both paths by removing trailing slashes
+  folderPath="${folderPath%/}"
+  local userHome="${HOME_DIR%/}"
+
+  if [[ "$folderPath" == "$userHome" || "$folderPath" == "$userHome/"* ]]; then
     echo true
   else
     echo false
