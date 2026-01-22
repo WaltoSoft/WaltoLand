@@ -186,6 +186,8 @@ ensureFolder() {
   
   if $(! isUserFolder $folderPath) ; then
     useSudoUser=true
+    echoText ${HOME_DIR}
+    echoText ${folderPath}
     echoText "Using sudo user"
   fi
 
