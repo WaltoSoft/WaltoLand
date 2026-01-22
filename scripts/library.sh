@@ -172,7 +172,8 @@ isUserFolder() {
   folderPath="${folderPath%/}"
   local userHome="${HOME_DIR%/}"
 
-  if [[ "$folderPath" == "$userHome" || "$folderPath" == "$userHome/"* ]]; then
+  # Check if the folder path starts with the home directory
+  if [[ "$folderPath" =~ ^"${userHome}"(/|$) ]]; then
     echo true
   else
     echo false
