@@ -169,14 +169,16 @@ isUserFolder() {
   local folderPath=$1
 
   # Normalize both paths by removing trailing slashes
-  folderPath="${folderPath%/}"
-  local userHome="${HOME_DIR%/}"
+  local normalizedFolderPath="${folderPath%/}"
+  local normalizedHomeDir="${HOME_DIR%/}"
 
   # Check if the folder path starts with the home directory
-  if [[ "$folderPath" =~ ^"${userHome}"(/|$) ]]; then
+  if [[ "$normalizedFolderPath" == "${normalizedHomeDir}"* ]]; then
     echo true
+    return 0
   else
     echo false
+    return 1
   fi
 }
 
