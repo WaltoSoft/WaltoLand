@@ -12,7 +12,6 @@ PACKAGE_LIST=(
   "gdm"                          #Dispaly manager, provides login screen
   "git"                          #git source control
   "gnome-text-editor"            #Gnome Text Editor
-  "grub"                         #Grub Boot Loader
   "kitty"                        #kitty terminal window
   "microsoft-edge-stable-bin"    #Microsoft Edge
   "networkmanager"               #Network Manager
