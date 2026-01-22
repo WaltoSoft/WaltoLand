@@ -29,6 +29,7 @@ PACKAGE_LIST=(
   "ttf-nerd-fonts-symbols"       #Icons and Symbols
   "visual-studio-code-bin"       #Visual Studio Code
   "xdg-utils"                    #
+  "xdg-desktop-portal-hyprland"  #program that lets other applications communicate with the compositor through D-Bus.
 )
 
 executeScript() {
