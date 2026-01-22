@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=WaltoLand
+Comment=An Hyprland implementation created by WaltoSoft
+Exec=/usr/bin/start-hyprland -- --config /home/billy/.config/waltoland/hypr/hyprland.conf
+Type=Application
+DesktopNames=Hyprland
+Keywords=tiling;wayland;compositor;
