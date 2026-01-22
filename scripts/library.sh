@@ -179,7 +179,7 @@ ensureFolder() {
   local folderPath=$1
   local useSudoUser=false
   
-  if $(isUserFolder $folderPath) ; then
+  if $(! isUserFolder $folderPath) ; then
     useSudoUser=true
   fi
 
