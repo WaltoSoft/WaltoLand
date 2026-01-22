@@ -11,9 +11,11 @@ PACKAGE_LIST=(
   "fastfetch"                    #Pretty display in terminal window
   "gdm"                          #Dispaly manager, provides login screen
   "git"                          #git source control
+  "gtk4-layer-shell"             #Needed for Hyprland gtk4 integration, also used in system panel
   "gnome-text-editor"            #Gnome Text Editor
   "jq"                           #
   "kitty"                        #kitty terminal window
+  "man-db"                       #Man pages
   "microsoft-edge-stable-bin"    #Microsoft Edge
   "networkmanager"               #Network Manager
   "network-manager-applet"       #Applet for Network Manager
