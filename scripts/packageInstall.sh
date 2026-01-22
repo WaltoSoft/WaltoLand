@@ -7,7 +7,6 @@ PACKAGE_LIST=(
   "blueman"                      #GUI for bluetooth
   "bluez"                        #Provides bluetooth protocol stack
   "bluez-utils"                  #Provides the bluetooth utility"
-  "curtains-close-git"           #UI Utility for shutting down, restart, etc.
   "dunst"                        #Notification Daemon
   "fastfetch"                    #Pretty display in terminal window
   "gdm"                          #Dispaly manager, provides login screen
@@ -22,6 +21,7 @@ PACKAGE_LIST=(
   "nautilus"                     #Nautilus File Manager
   "noto-fonts"                   #Fonts
   "polkit-gnome"                 #Authentication agent
+  "rustup"                       #Rust
   "swww"                         #Wallpaper service
   "ttf-nerd-fonts-symbols"       #Icons and Symbols
   "visual-studio-code-bin"       #Visual Studio Code
