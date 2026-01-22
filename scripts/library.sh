@@ -186,26 +186,23 @@ ensureFolder() {
   local folderPath=$1
   local useSudoUser=false
   
-  if $(! isUserFolder $folderPath) ; then
+  if ! isUserFolder $folderPath; then
     useSudoUser=true
-    echoText ${HOME_DIR}
-    echoText ${folderPath}
     echoText "Using sudo user"
   fi
 
   echoText "Ensuring folder '${folderPath}' exists"
    
-  if [ ! -d $folderPath ] ;then
+  if [ ! -d "$folderPath" ]; then
     if $useSudoUser; then
-      sudo mkdir -p $folderPath
+      sudo mkdir -p "$folderPath"
     else
-      mkdir -p $folderPath
+      mkdir -p "$folderPath"
     fi
 
     echoText "Folder '${folderPath}' created"
   fi
 }
-
 
 existsOrExit() {
   if [ -z $1 ]; then
