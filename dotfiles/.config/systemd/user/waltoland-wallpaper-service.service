@@ -1,0 +1,11 @@
+[Unit]
+Description=WaltoLand Wallpaper Service
+After=network.target
+
+[Service]
+ExecStart=%h/.config/waltoland/scripts/waltoland-wallpaper-service.sh
+WorkingDirectory=%h/.config/waltoland/scripts
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
