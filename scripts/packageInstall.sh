@@ -27,6 +27,7 @@ PACKAGE_LIST=(
   "swww"                         #Wallpaper service
   "ttf-nerd-fonts-symbols"       #Icons and Symbols
   "visual-studio-code-bin"       #Visual Studio Code
+  "wl-clipboard"                 #For Copy/Paste
   "xdg-utils"                    #
   "xdg-desktop-portal-hyprland"  #program that lets other applications communicate with the compositor through D-Bus.
   "zen-browser-bin"              #Zen Browser
