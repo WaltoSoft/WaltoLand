@@ -18,10 +18,8 @@ PACKAGE_LIST=(
   "kitty"                        #kitty terminal window
   "man-db"                       #Man pages
   "nautilus"                     #Nautilus File Manager
-  "networkmanager"               #Network Manager
-  "network-manager-applet"       #Applet for Network Manager
-  "pipewire"                     #For screensharing
   "noto-fonts"                   #Fonts
+  "pipewire"                     #For screensharing
   "polkit-gnome"                 #Authentication agent
   "rofi"                         #Application Launcher
   "rustup"                       #Rust

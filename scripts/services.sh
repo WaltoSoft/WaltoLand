@@ -1,5 +1,4 @@
 SERVICE_LIST=(
-  "NetworkManager"
   "bluetooth"
   "gdm"
 )
