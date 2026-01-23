@@ -7,6 +7,7 @@ PACKAGE_LIST=(
   "blueman"                      #GUI for bluetooth
   "bluez"                        #Provides bluetooth protocol stack
   "bluez-utils"                  #Provides the bluetooth utility"
+  "cliphist"                     #Clipboard History for Wayland
   "dunst"                        #Notification Daemon
   "fastfetch"                    #Pretty display in terminal window
   "gdm"                          #Dispaly manager, provides login screen
@@ -16,13 +17,13 @@ PACKAGE_LIST=(
   "jq"                           #
   "kitty"                        #kitty terminal window
   "man-db"                       #Man pages
+  "nautilus"                     #Nautilus File Manager
   "networkmanager"               #Network Manager
   "network-manager-applet"       #Applet for Network Manager
   "pipewire"                     #For screensharing
-  "xdg-desktop-portal-hyprland"  #Handles a lot of stuff for desktop like file pickers, screensharing, etc.
-  "nautilus"                     #Nautilus File Manager
   "noto-fonts"                   #Fonts
   "polkit-gnome"                 #Authentication agent
+  "rofi"                         #Application Launcher
   "rustup"                       #Rust
   "swww"                         #Wallpaper service
   "ttf-nerd-fonts-symbols"       #Icons and Symbols
