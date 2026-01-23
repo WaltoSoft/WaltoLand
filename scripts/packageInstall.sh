@@ -16,7 +16,6 @@ PACKAGE_LIST=(
   "jq"                           #
   "kitty"                        #kitty terminal window
   "man-db"                       #Man pages
-  "microsoft-edge-stable-bin"    #Microsoft Edge
   "networkmanager"               #Network Manager
   "network-manager-applet"       #Applet for Network Manager
   "pipewire"                     #For screensharing
@@ -30,6 +29,7 @@ PACKAGE_LIST=(
   "visual-studio-code-bin"       #Visual Studio Code
   "xdg-utils"                    #
   "xdg-desktop-portal-hyprland"  #program that lets other applications communicate with the compositor through D-Bus.
+  "zen-browser-bin"              #Zen Browser
 )
 
 executeScript() {
