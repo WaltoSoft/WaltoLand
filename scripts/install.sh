@@ -9,6 +9,7 @@ executeScript() {
   source $SCRIPT_DIR/bashrc.sh
   source $SCRIPT_DIR/services.sh
   source $SCRIPT_DIR/grub.sh
+  source $SCRIPT_DIR/gnome.sh
   source $SCRIPT_DIR/git.sh
 
   echoText "Installing WaltoLand desktop file as an option for launching a wayland session"
