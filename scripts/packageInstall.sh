@@ -7,25 +7,39 @@ PACKAGE_LIST=(
   "blueman"                      #GUI for bluetooth
   "bluez"                        #Provides bluetooth protocol stack
   "bluez-utils"                  #Provides the bluetooth utility"
+  "brightnessctl"                #Control screen brightness
   "cliphist"                     #Clipboard History for Wayland
   "dunst"                        #Notification Daemon
+  "eog"                          #Eye of Gnome Image Viewer
   "fastfetch"                    #Pretty display in terminal window
   "gdm"                          #Dispaly manager, provides login screen
   "git"                          #git source control
   "gtk4-layer-shell"             #Needed for Hyprland gtk4 integration, also used in system panel
   "gnome-text-editor"            #Gnome Text Editor
-  "jq"                           #
+  "gst-plugin-pipewire"          #Pipewire plugin for Gstreamer
+  "jq"                           #Command line JSON processor
   "kitty"                        #kitty terminal window
+  "less"                         #fast, interactive virtual text viewer
   "man-db"                       #Man pages
   "nautilus"                     #Nautilus File Manager
   "noto-fonts"                   #Fonts
+  "pacman-contrib"               #Additional pacman tools
+  "pamixer"                      #CLI for controlling volume via PulseAudio
+  "pavucontrol"                  #PulseAudio Volume Control
   "pipewire"                     #For screensharing
+  "pipewire-audio"               #Pipewire audio support
+  "pipewire-jack"                #Pipewire JACK support
+  "pipewire-pulse"               #Pipewire PulseAudio support
   "polkit-gnome"                 #Authentication agent
-  "rofi"                         #Application Launcher
+  "rofi-wayland"                 #Rofi for Wayland, App launcher
   "rustup"                       #Rust
+  "slurp"                        #Screenshot selection tool for Wayland
+  "spicetify-cli"                #Spotify customizer
+  "spotify"                      #Spotify client
   "swww"                         #Wallpaper service
   "ttf-nerd-fonts-symbols"       #Icons and Symbols
   "visual-studio-code-bin"       #Visual Studio Code
+  "wireplumber"                  #Pipewire session manager
   "wl-clipboard"                 #For Copy/Paste
   "xdg-utils"                    #
   "xdg-desktop-portal-hyprland"  #program that lets other applications communicate with the compositor through D-Bus.
