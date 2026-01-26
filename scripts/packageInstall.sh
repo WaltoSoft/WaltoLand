@@ -30,8 +30,9 @@ PACKAGE_LIST=(
   "pipewire-audio"               #Pipewire audio support
   "pipewire-jack"                #Pipewire JACK support
   "pipewire-pulse"               #Pipewire PulseAudio support
+  "playerctl"                    #Player Control
   "polkit-gnome"                 #Authentication agent
-  "rofi"                 #Rofi for Wayland, App launcher
+  "rofi"                         #Rofi for Wayland, App launcher
   "rustup"                       #Rust
   "slurp"                        #Screenshot selection tool for Wayland
   "spicetify-cli"                #Spotify customizer
