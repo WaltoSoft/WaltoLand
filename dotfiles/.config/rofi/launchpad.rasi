@@ -1,0 +1,82 @@
+/**
+ * Mac Launchpad-style application launcher
+ * Based on working grid themes from adi1090x/rofi
+ * Usage: rofi -show drun -show-icons -theme launchpad
+ */
+
+configuration {
+    show-icons:          true;
+    drun-display-format: "{name}";
+}
+
+* {
+    bg:          rgba(30, 30, 30, 0.95);
+    fg:          #ffffff;
+    accent:      rgba(255, 255, 255, 0.1);
+}
+
+window {
+    background-color: @bg;
+    width:            1200px;
+    location:         center;
+    anchor:           center;
+    border-radius:    12px;
+    padding:          0px;
+}
+
+mainbox {
+    background-color: transparent;
+    padding:          30px;
+    children:         [ inputbar, listview ];
+    spacing:          20px;
+}
+
+inputbar {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius:    8px;
+    padding:          12px 20px;
+    children:         [ entry ];
+}
+
+entry {
+    background-color:  transparent;
+    text-color:        @fg;
+    placeholder:       "Search applications...";
+    placeholder-color: rgba(255, 255, 255, 0.5);
+}
+
+listview {
+    background-color: transparent;
+    columns:          7;
+    lines:            4;
+    spacing:          15px;
+    scrollbar:        false;
+    cycle:            true;
+    fixed-height:     true;
+    fixed-columns:    true;
+    flow:             horizontal;
+}
+
+element {
+    background-color: transparent;
+    orientation:      vertical;
+    padding:          15px 10px;
+    spacing:          10px;
+    border-radius:    8px;
+}
+
+element selected {
+    background-color: @accent;
+}
+
+element-icon {
+    background-color: transparent;
+    size:             64px;
+    horizontal-align: 0.5;
+}
+
+element-text {
+    background-color: transparent;
+    text-color:       @fg;
+    horizontal-align: 0.5;
+}
