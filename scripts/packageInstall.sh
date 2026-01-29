@@ -8,6 +8,7 @@ PACKAGE_LIST=(
   "bluez"                        #Provides bluetooth protocol stack
   "bluez-utils"                  #Provides the bluetooth utility"
   "brightnessctl"                #Control screen brightness
+  "cantarell-fonts"              #Cantarell Fonts
   "cliphist"                     #Clipboard History for Wayland
   "dunst"                        #Notification Daemon
   "eog"                          #Eye of Gnome Image Viewer

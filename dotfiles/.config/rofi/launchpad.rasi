@@ -6,11 +6,11 @@
 
 configuration {
     show-icons:          true;
-    drun-display-format: "{name}";
+    font:                "Cantarell 12";
 }
 
 * {
-    bg:          rgba(30, 30, 30, 0.95);
+    bg:          rgba(30, 30, 30, 0.90);
     fg:          #ffffff;
     accent:      rgba(255, 255, 255, 0.1);
 }
