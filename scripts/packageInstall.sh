@@ -9,6 +9,7 @@ PACKAGE_LIST=(
   "bluez-utils"                  #Provides the bluetooth utility"
   "brightnessctl"                #Control screen brightness
   "cantarell-fonts"              #Cantarell Fonts
+  "chromium"                     #Chromium Web Browser
   "cliphist"                     #Clipboard History for Wayland
   "dunst"                        #Notification Daemon
   "eog"                          #Eye of Gnome Image Viewer
@@ -45,7 +46,6 @@ PACKAGE_LIST=(
   "wl-clipboard"                 #For Copy/Paste
   "xdg-utils"                    #
   "xdg-desktop-portal-hyprland"  #program that lets other applications communicate with the compositor through D-Bus.
-  "zen-browser-bin"              #Zen Browser
 )
 
 executeScript() {
