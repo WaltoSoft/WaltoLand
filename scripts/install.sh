@@ -5,6 +5,7 @@ executeScript() {
   source $SCRIPT_DIR/library.sh
   source $SCRIPT_DIR/start.sh
   source $SCRIPT_DIR/packageInstall.sh
+  source $SCRIPT_DIR/ecosystemInstall.sh
   source $SCRIPT_DIR/dotfiles.sh
   source $SCRIPT_DIR/bashrc.sh
   source $SCRIPT_DIR/services.sh
