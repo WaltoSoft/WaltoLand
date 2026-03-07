@@ -1,23 +1,49 @@
 {
-  "left": [
-    { "type": "launch",
-      "icon": "view-app-grid-symbolic",
-      "command": "pkill rofi || /home/billy/.config/waltoland/scripts/rofi-alphabetical-apps.sh"
-    },
-    { "type": "workspace" }
-  ],
   "center": [
-    { "type": "clock" },
-    { "type": "weather" }
+    {
+      "type": "clock"
+    },
+    {
+      "location": "Jenks, OK",
+      "type": "weather"
+    }
+  ],
+  "left": [
+    {
+      "command": "pkill rofi || /home/billy/.config/waltoland/scripts/rofi-alphabetical-apps.sh",
+      "icon": "view-app-grid-symbolic",
+      "type": "launch"
+    },
+    {
+      "type": "workspace"
+    }
   ],
   "right": [
-    { "type": "system_metrics" },
-    { "type": "launch", "icon": "bluetooth-symbolic", "command": "blueman-manager" },   
-    { "type": "network" },
-    { "type": "brightness" },
-    { "type": "sound" },
-    { "type": "microphone" },
-    { "type": "battery"  },
-    { "type": "system" }
+    {
+      "type": "system_metrics"
+    },
+    {
+      "command": "blueman-manager",
+      "icon": "bluetooth-symbolic",
+      "type": "launch"
+    },
+    {
+      "type": "network"
+    },
+    {
+      "type": "brightness"
+    },
+    {
+      "type": "sound"
+    },
+    {
+      "type": "microphone"
+    },
+    {
+      "type": "battery"
+    },
+    {
+      "type": "system"
+    }
   ]
 }
