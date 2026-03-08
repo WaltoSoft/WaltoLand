@@ -19,10 +19,13 @@ PACKAGE_LIST=(
   "gtk4-layer-shell"             #Needed for Hyprland gtk4 integration, also used in system panel
   "gnome-text-editor"            #Gnome Text Editor
   "gst-plugin-pipewire"          #Pipewire plugin for   "jq"                           #Command line JSON processor
+  "hypridle"                     #Hyprland idle management utility
+  "hyprlock"                     #Hyprland screen locker
   "jq"                           #JSON parsing
   "kitty"                        #kitty terminal window
   "less"                         #fast, interactive virtual text viewer
   "man-db"                       #Man pages
+  "monique"                      #Monitor Layout utility
   "nautilus"                     #Nautilus File Manager
   "noto-fonts"                   #Fonts
   "pacman-contrib"               #Additional pacman tools

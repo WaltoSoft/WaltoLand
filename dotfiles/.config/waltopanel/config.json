@@ -10,7 +10,7 @@
   ],
   "left": [
     {
-      "command": "pkill rofi || /home/billy/.config/waltoland/scripts/rofi-alphabetical-apps.sh",
+      "command": "pkill rofi || $WALTOLAND_SCRIPTS_DIR/rofi-alphabetical-apps.sh",
       "icon": "view-app-grid-symbolic",
       "type": "launch"
     },
