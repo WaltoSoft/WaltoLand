@@ -3,6 +3,7 @@ CORE_PACKAGE_LIST=(
 )
 
 PACKAGE_LIST=(
+  "azure-data-studio-bin"        #Microsoft Azure Data Studio
   "base-devel"                   #Tools for development
   "blueman"                      #GUI for bluetooth
   "bluez"                        #Provides bluetooth protocol stack
@@ -11,6 +12,8 @@ PACKAGE_LIST=(
   "cantarell-fonts"              #Cantarell Fonts
   "chromium"                     #Chromium Web Browser
   "cliphist"                     #Clipboard History for Wayland
+  "docker"                       #Docker containerization platform
+  "docker-compose"               #Docker compose tool
   "dunst"                        #Notification Daemon
   "eog"                          #Eye of Gnome Image Viewer
   "fastfetch"                    #Pretty display in terminal window

@@ -1,5 +1,6 @@
 SERVICE_LIST=(
   "bluetooth"
+  "docker"
   "gdm"
 )
 
