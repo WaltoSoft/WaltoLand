@@ -3,7 +3,7 @@ CORE_PACKAGE_LIST=(
 )
 
 PACKAGE_LIST=(
-  "azure-data-studio-bin"        #Microsoft Azure Data Studio
+  "azuredatastudio-bin"        #Microsoft Azure Data Studio
   "base-devel"                   #Tools for development
   "blueman"                      #GUI for bluetooth
   "bluez"                        #Provides bluetooth protocol stack
